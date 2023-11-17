@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var counter = 0
+  
+  @State var counter = "0"
   
   var body: some View {
+    VStack {
+      Text("Your age is : \(counter)")
+        .padding()
+      TextField("", text: $counter)
+      
+    }
     
-     Text("Your age is : \(counter)")
-
     }
 }
 

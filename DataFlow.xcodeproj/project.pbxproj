@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7A42732B086CF4006F01BC /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A42722B086CF4006F01BC /* ControlPanelView.swift */; };
+		8B7A42752B086E1A006F01BC /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A42742B086E1A006F01BC /* ParentView.swift */; };
 		8BB548452B07DF110041DF76 /* DataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB548442B07DF110041DF76 /* DataFlowApp.swift */; };
 		8BB548472B07DF110041DF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB548462B07DF110041DF76 /* ContentView.swift */; };
 		8BB548492B07DF130041DF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB548482B07DF130041DF76 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B7A42722B086CF4006F01BC /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		8B7A42742B086E1A006F01BC /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		8BB548412B07DF110041DF76 /* DataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB548442B07DF110041DF76 /* DataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowApp.swift; sourceTree = "<group>"; };
 		8BB548462B07DF110041DF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				8BB548462B07DF110041DF76 /* ContentView.swift */,
 				8BB548482B07DF130041DF76 /* Assets.xcassets */,
 				8BB5484A2B07DF130041DF76 /* Preview Content */,
+				8B7A42742B086E1A006F01BC /* ParentView.swift */,
+				8B7A42722B086CF4006F01BC /* ControlPanelView.swift */,
 			);
 			path = DataFlow;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7A42752B086E1A006F01BC /* ParentView.swift in Sources */,
+				8B7A42732B086CF4006F01BC /* ControlPanelView.swift in Sources */,
 				8BB548472B07DF110041DF76 /* ContentView.swift in Sources */,
 				8BB548452B07DF110041DF76 /* DataFlowApp.swift in Sources */,
 			);

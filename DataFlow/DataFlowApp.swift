@@ -11,7 +11,10 @@ import SwiftUI
 struct DataFlowApp: App {
     var body: some Scene {
         WindowGroup {
-        ContentView()
+ //        ContentView()
+//          AccountView()
+          //Currently using Environment Object modifier
+          AccountViewEnvObj().environmentObject(ProfileEnvObj())
         }
     }
 }

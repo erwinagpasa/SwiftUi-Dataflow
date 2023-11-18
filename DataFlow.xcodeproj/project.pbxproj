@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B77D57F2B09129700B1EB8E /* ProfileEnvObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77D57E2B09129700B1EB8E /* ProfileEnvObj.swift */; };
+		8B77D5812B0912AE00B1EB8E /* BalanceViewEnvObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77D5802B0912AD00B1EB8E /* BalanceViewEnvObj.swift */; };
+		8B77D5832B0912D000B1EB8E /* AccountViewEnvObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77D5822B0912D000B1EB8E /* AccountViewEnvObj.swift */; };
 		8B7A42792B087509006F01BC /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A42782B087509006F01BC /* ParentView.swift */; };
 		8B7A427B2B08758F006F01BC /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A427A2B08758F006F01BC /* ControlPanelView.swift */; };
+		8B7A42802B08C34F006F01BC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A427F2B08C34F006F01BC /* AccountView.swift */; };
+		8B7A42822B08C35C006F01BC /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A42812B08C35C006F01BC /* BalanceView.swift */; };
+		8B7A42842B08C380006F01BC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A42832B08C380006F01BC /* Profile.swift */; };
 		8BB548452B07DF110041DF76 /* DataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB548442B07DF110041DF76 /* DataFlowApp.swift */; };
 		8BB548472B07DF110041DF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB548462B07DF110041DF76 /* ContentView.swift */; };
 		8BB548492B07DF130041DF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB548482B07DF130041DF76 /* Assets.xcassets */; };
@@ -16,8 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B77D57E2B09129700B1EB8E /* ProfileEnvObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEnvObj.swift; sourceTree = "<group>"; };
+		8B77D5802B0912AD00B1EB8E /* BalanceViewEnvObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewEnvObj.swift; sourceTree = "<group>"; };
+		8B77D5822B0912D000B1EB8E /* AccountViewEnvObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewEnvObj.swift; sourceTree = "<group>"; };
 		8B7A42782B087509006F01BC /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		8B7A427A2B08758F006F01BC /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		8B7A427F2B08C34F006F01BC /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		8B7A42812B08C35C006F01BC /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		8B7A42832B08C380006F01BC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		8BB548412B07DF110041DF76 /* DataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB548442B07DF110041DF76 /* DataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowApp.swift; sourceTree = "<group>"; };
 		8BB548462B07DF110041DF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B77D57D2B09126700B1EB8E /* EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				8B77D57E2B09129700B1EB8E /* ProfileEnvObj.swift */,
+				8B77D5802B0912AD00B1EB8E /* BalanceViewEnvObj.swift */,
+				8B77D5822B0912D000B1EB8E /* AccountViewEnvObj.swift */,
+			);
+			path = EnvironmentObject;
+			sourceTree = "<group>";
+		};
 		8B7A427C2B087A30006F01BC /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +78,9 @@
 		8B7A427E2B087A62006F01BC /* ObservableObject */ = {
 			isa = PBXGroup;
 			children = (
+				8B7A427F2B08C34F006F01BC /* AccountView.swift */,
+				8B7A42812B08C35C006F01BC /* BalanceView.swift */,
+				8B7A42832B08C380006F01BC /* Profile.swift */,
 			);
 			path = ObservableObject;
 			sourceTree = "<group>";
@@ -79,6 +104,7 @@
 		8BB548432B07DF110041DF76 /* DataFlow */ = {
 			isa = PBXGroup;
 			children = (
+				8B77D57D2B09126700B1EB8E /* EnvironmentObject */,
 				8B7A427E2B087A62006F01BC /* ObservableObject */,
 				8B7A427D2B087A45006F01BC /* Binding */,
 				8B7A427C2B087A30006F01BC /* State */,
@@ -168,9 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB548472B07DF110041DF76 /* ContentView.swift in Sources */,
+				8B77D5812B0912AE00B1EB8E /* BalanceViewEnvObj.swift in Sources */,
 				8B7A427B2B08758F006F01BC /* ControlPanelView.swift in Sources */,
 				8B7A42792B087509006F01BC /* ParentView.swift in Sources */,
+				8B77D5832B0912D000B1EB8E /* AccountViewEnvObj.swift in Sources */,
+				8B77D57F2B09129700B1EB8E /* ProfileEnvObj.swift in Sources */,
+				8B7A42842B08C380006F01BC /* Profile.swift in Sources */,
+				8B7A42822B08C35C006F01BC /* BalanceView.swift in Sources */,
 				8BB548452B07DF110041DF76 /* DataFlowApp.swift in Sources */,
+				8B7A42802B08C34F006F01BC /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

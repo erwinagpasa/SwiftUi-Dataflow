@@ -12,8 +12,7 @@ struct ControlPanelView: View {
   @Binding var userInput: String
   
     var body: some View {
-      TextField("", text: $userInput)
-        .textFieldStyle(RoundedBorderTextFieldStyle())
+      TextField("", text: $userInput).textFieldStyle(RoundedBorderTextFieldStyle())
     }
 }
 

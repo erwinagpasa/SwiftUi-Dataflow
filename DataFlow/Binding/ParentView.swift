@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct ParentView: View {
-
+  
   @State var userInput = ""
   
-  var body: some View {
-    VStack {
-      Rectangle().foregroundColor(userInput.lowercased() == "blue" ? .blue : .black )
-      ControlPanelView(userInput: $userInput)
+    var body: some View {
+      VStack {
+        Rectangle().foregroundColor(userInput.lowercased() == "blue" ? .blue : .black)
+        ControlPanelView(userInput: $userInput)
+      }
+
+      
     }
-  }
 }
 
 #Preview {
